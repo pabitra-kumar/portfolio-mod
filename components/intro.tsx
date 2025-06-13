@@ -68,11 +68,13 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <b className="font-bold">Hi, I&apos;m {OWNER_NAME.split(" ")[0]}.</b>{" "}
+        <b className="font-bold">
+          Hi, I&apos;m{" "}
+          {OWNER_NAME.split(" ")[0] + " " + OWNER_NAME.split(" ")[1]}.
+        </b>{" "}
         I&apos;m a <b className="font-bold">full-stack developer</b> graduated
         from <b className="font-bold">NIT Rourkela</b>. I enjoy building{" "}
-        <i className="italic">sites and apps</i>. My focus is{" "}
-        <u className="underline">React (Next.js)</u>.
+        <i className="italic">sites and apps</i>.
       </motion.h1>
 
       <motion.div

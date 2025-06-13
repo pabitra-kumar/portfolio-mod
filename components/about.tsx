@@ -36,10 +36,10 @@ const About = () => {
         problem-solving aspect. I <u className="underline">love</u> the feeling
         of finally figuring out a solution to a problem. My core stack is{" "}
         <b className="font-medium">React, Next.js, Node.js, and MySQL</b>. I am
-        also familiar with TypeScript and Prisma. I am always looking to learn
-        new technologies. I am currently looking for a{" "}
-        <b className="font-medium">full-time position</b> as a software
-        developer.
+        also familiar with TypeScript and Java. I am always looking to learn new
+        technologies. I am currently looking for a{" "}
+        <b className="font-medium">full-time position / Internship</b> as a
+        software developer.
       </p>
 
       {/* Display another paragraph about the user's interests and hobbies. */}
