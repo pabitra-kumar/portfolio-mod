@@ -20,10 +20,10 @@ export const viewport: Viewport = {
 
 // site metadata
 export const metadata: Metadata = {
-  title: `${OWNER_NAME.split(" ")[0]} | Personal Portfolio`,
+  title: `${OWNER_NAME} | Personal Portfolio`,
   description: `${
     OWNER_NAME.split(" ")[0]
-  } is a full-stack developer with 4 years of experience.`,
+  } is a Software developer graduated from NIT Rourkela.`,
   authors: {
     name: OWNER_NAME,
     url: EXTRA_LINKS.github,
@@ -50,10 +50,10 @@ export const metadata: Metadata = {
     "css",
   ],
   manifest: "/manifest.json",
-  other: {
-    "google-site-verification":
-      process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION_KEY!,
-  },
+  // other: {
+  //   "google-site-verification":
+  //     process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION_KEY!,
+  // },
 };
 
 // root layout

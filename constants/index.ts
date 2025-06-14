@@ -40,18 +40,18 @@ export const EXTRA_LINKS = {
   linkedin: "https://linkedin.com/in/pabitra-kumar",
   github: "https://github.com/pabitra-kumar",
   resume: "/resume.pdf",
-  source_code: "https://github.com/",
+  source_code: "https://github.com/pabitra-kumar/portfolio-mod",
   email: "pabitrakumarbebartta@gmail.com",
 } as const;
 
 // Data for work experience
 export const EXPERIENCES_DATA = [
   {
-    title: "Graduated from NIT Rourkela",
+    title: "CP and DSA Learning",
     description:
-      "Completed my graduation curriculum, gaining a solid foundation in various subjects and essential skills.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021 - 2025",
+      "Successfully completed an intensive 1-year of React.js self learning and Developent. Acquired expertise in React components, state management with Redux, and interacting with RESTful APIs.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022",
   },
   {
     title: "React.js (Next.js) Learning",
@@ -61,11 +61,25 @@ export const EXPERIENCES_DATA = [
     date: "2023",
   },
   {
-    title: "Freelancer React.js Developer",
+    title: "Won Hackathons and Competitions",
+    description:
+      "Working as a freelance React.js Developer, I have collaborated with various clients to create responsive and dynamic web applications.",
+    icon: React.createElement(FaReact),
+    date: "2023 - 2024",
+  },
+  {
+    title: "Got Selected in TCS Digital and Trying for Prime",
     description:
       "Working as a freelance React.js Developer, I have collaborated with various clients to create responsive and dynamic web applications.",
     icon: React.createElement(FaReact),
     date: "2024 - present",
+  },
+  {
+    title: "Graduated from NIT Rourkela",
+    description:
+      "Completed my graduation curriculum, gaining a solid foundation in various subjects and essential skills.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2025",
   },
 ] as const;
 
